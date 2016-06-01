@@ -1,0 +1,14 @@
+.navigation {
+  background-color: $color-light-gray;
+  width: 30%;
+  height: calc(100% - 30px);
+}
+
+.navigation__links {
+  padding: 15px 20px;
+}
+
+.navigation__link {
+  list-style: none;
+  margin-bottom: 10px;
+}

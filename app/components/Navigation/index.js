@@ -10,7 +10,13 @@ class Navigation extends Component {
   render() {
     return (
       <div className="navigation">
-        <h2>I'm the Navigation</h2>
+        <ul className="navigation__links">
+          <li className="navigation__link">Song Title</li>
+          <li className="navigation__link">Song Title</li>
+          <li className="navigation__link">Song Title</li>
+          <li className="navigation__link">Song Title</li>
+          <li className="navigation__link">Song Title</li>
+        </ul>
       </div>
     )
   }

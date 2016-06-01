@@ -10,7 +10,9 @@ class Tab extends Component {
   render() {
     return (
       <div className="tab">
-        <h2>I'm the Tab Area</h2>
+        <pre className="tab__content">
+          <h2>I'm the Tab Area</h2>
+        </pre>
       </div>
     )
   }

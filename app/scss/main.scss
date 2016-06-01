@@ -1,5 +1,10 @@
-body {
-  background-color: #F7F7F7;
-  color: #222;
-  font-family: helvetica, arial, sans-serif;
-}
+// Variables
+
+$color-light-gray: #F7F7F7;
+
+
+@import "modules/global";
+@import "modules/container";
+@import "modules/navigation";
+@import "modules/tab";
+@import "modules/footer";

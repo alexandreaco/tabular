@@ -10,7 +10,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        <h6>Tabular was made with love by alex</h6>
+        Tabular was made with love by alex
       </div>
     )
   }
