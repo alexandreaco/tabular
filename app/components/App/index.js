@@ -1,12 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { Component } from 'react';
+import Navigation from '../Navigation';
+import Tab from '../Tab';
+import Footer from '../Footer';
 
-class App extends React.Component {
+class App extends Component {
+
+  constructor() {
+    super();
+  }
+
   render() {
     return (
-      <h1>Hello, this is my new app!</h1>
+      <div className="container">
+        <Navigation />
+        <Tab />
+        <Footer />
+      </div>
     )
   }
 }
 
-ReactDOM.render(<App/>, document.getElementById('app'));
+export default App;
