@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import API from '../../api.js';
 
 class Tab extends Component {
 
@@ -11,7 +12,8 @@ class Tab extends Component {
     return (
       <div className="tab">
         <pre className="tab__content">
-          <h2>I'm the Tab Area</h2>
+          <h1>{ API[0].title }</h1>
+          { API[0].tabs }
         </pre>
       </div>
     )
